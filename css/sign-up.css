@@ -1,0 +1,208 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* username icon */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'color' black,
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body{ 
+  background: #CAF1FF;
+}
+
+/* styling navbar */
+.nav-section { 
+  padding: 12px;
+  margin: 0px 160px 50px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.careNexus-logo { 
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 18px;
+}
+.logo-text { 
+  margin: 0;
+  font-size: 20px;
+}
+.nav-items { 
+  position: relative;
+  left: 40px;
+}
+
+.nav-items ul{ 
+  display: flex;
+  
+}
+
+.nav-items li { 
+  list-style-type: none;
+  margin-right: 50px;
+  position: relative;
+}
+
+
+.nav-items li a { 
+  font-family: "Poly", serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+/* starting with full container */
+.full-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+/* first half */
+.form { 
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-section {
+  text-align: center;
+  position: relative;
+  left: 130px;
+
+}
+
+.form-header{ 
+  font-family: "Poly", serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+} 
+
+.actual-form { 
+  display: flex;
+  flex-direction: column;
+}
+
+.actual-form label { 
+  display: flex;
+  align-items: baseline;
+  width: 300px;
+  border-bottom: 1px solid black;
+  border-bottom-width: 3px;
+  margin: 2px;
+ 
+}
+
+.actual-form input { 
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px;
+}
+
+
+.actual-form input::placeholder { 
+  font-size: 16px;
+  color: black;
+ 
+}
+
+.material-symbols-outlined { 
+position: relative;
+top: 5px;
+}
+
+.sign-up-btn { 
+  font-size: 20px;
+  margin-top: 40px;
+  background: #181818;
+  color: white;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: transform 300ms ease-in-out;
+}
+.sign-up-btn:hover { 
+  transform: translateY(-8px);
+  color: #ecf0f1;
+  background: #222223;
+  border: none;
+  cursor: pointer;
+  
+}
+.goto-login { 
+  position: relative;
+  top: 5px;
+}
+.goto-login a { 
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+
+.goto-login a:hover { 
+  font-weight: 500;
+}
+
+/* second half */
+.img-section { 
+display: flex;
+flex: 1;
+padding: 20px;
+align-items: center;
+justify-content: center;
+
+}
+
+.nursing-img { 
+  width: 510px;
+  height: 510px;
+  transform: scaleX(-1);
+  position: relative;
+  bottom: 20px;
+  right: 58px;
+}
+
+/* hover effect for a tag */
+
+.nav-items li a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: -2px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #1f1f1f;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-items li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
