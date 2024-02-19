@@ -2,7 +2,7 @@
 function scrollToSection(sectionId) {
     var targetSection = document.getElementById(sectionId);
     
-    // Calculate the center of the viewport
+    // Calculate the center of the viewport 
     var windowHeight = window.innerHeight;
     var center = windowHeight / 2;
 
