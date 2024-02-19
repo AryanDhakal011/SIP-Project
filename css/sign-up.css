@@ -157,6 +157,7 @@ top: 5px;
 .goto-login { 
   position: relative;
   top: 5px;
+  right: 8px;
 }
 .goto-login a { 
   font-size: 16px;
@@ -184,7 +185,7 @@ justify-content: center;
   height: 510px;
   transform: scaleX(-1);
   position: relative;
-  bottom: 20px;
+  bottom: 30px;
   right: 58px;
 }
 

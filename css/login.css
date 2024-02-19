@@ -111,8 +111,7 @@ body{
     margin: 10px;
   }
   .form { 
-    background: linear-gradient(rgba(255, 255, 255, 0.5)
-    rgba(255, 255, 255, 0.2));
+    background: #dbf5ff;
     position: relative;
     bottom: 20px;
     right: 166px;
@@ -209,9 +208,9 @@ body{
   }
 
   .login-btn:hover { 
-    box-shadow: inset 300px 0 0 0 grey;
-    color: #ecf0f1;
-    border: none;
+    box-shadow: inset 300px 0 0 0 #EEF5FF;
+    color: black;
+    border: 1px solid grey;
     cursor: pointer;
   }
 
@@ -233,8 +232,8 @@ body{
     border: hidden;
   }
   .create-acc-btn:hover { 
-  box-shadow: inset 300px 0 0 0 grey; 
-  color: #ecf0f1;
+  box-shadow: inset 300px 0 0 0 #EEF5FF;
+  color: black;
   border: none;
   cursor: pointer;
   }
