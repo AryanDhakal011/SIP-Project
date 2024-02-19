@@ -1,0 +1,355 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: #CAF1FF;
+}
+.total-container { 
+    margin: 40px;
+    background: #dbf5ff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 1730px;
+    border-radius: 30px;
+}
+.nav-section { 
+    padding: 12px;
+    margin: 0px 160px 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 30px;
+  }
+  
+  .careNexus-logo { 
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 40px;
+  }
+  .logo-text { 
+    margin: 0;
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+  }
+  .nav-items { 
+    position: relative;
+    left: 60px;
+  }
+  
+  .nav-items ul{ 
+    display: flex;
+    
+  }
+  
+  .nav-items li { 
+    list-style-type: none;
+    margin-right: 50px;
+    position: relative;
+  }
+  
+  
+  .nav-items li a { 
+    font-family: "Poly", serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  .nav-items li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -4px;
+    content: "";
+    display: block;
+    height: 2.5px;
+    left: 50%;
+    position: absolute;
+    background: #1f1f1f;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-items li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+/* for header */
+.header { 
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ left: 182px;
+ margin: 80px 40px 60px 40px;
+ padding: 10px;
+ width: 918px;
+}
+.header-txt { 
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    
+}
+.header-para { 
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.choose-service-header { 
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.availability { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.available-header { 
+    font-family: "Inter", sans-serif;
+    font-size: 26px; 
+    font-weight: 700;
+    margin: 20px;
+
+}
+.available-btn { 
+    width: 120px;
+    height: 34px;
+    color: white;
+    background: #4E7C69;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    margin: 20px;
+    transition: 300ms ease-in-out;
+}
+
+.weekafter-btn { 
+    width: 140px;
+    height: 34px;
+}
+.available-btn:hover { 
+    background: #629e85;
+    cursor: pointer;
+}
+
+/* four container css */
+.doctor-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctor-img { 
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+.doctor{ 
+    margin: 20px;
+    background: #F2F2F2;
+    padding: 30px;
+    border-radius: 20px;
+}
+.doctor-name { 
+    font-family: "Inter", sans-serif;
+    font-size: 24px ;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+
+}
+.volunteer { 
+    font-family: "Inter", sans-serif;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+.doctor-info p{ 
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 4px;
+}
+
+.choose-btn { 
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: #4E7C69;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 14px;
+    margin: 20px;
+    transition: 300ms ease-in-out;
+}
+
+.choose-btn:hover { 
+    background: #629e85;
+    cursor: pointer;
+}
+
+
+
+
+
+
+  /* footer */
+  
+  .site-footer { 
+    background: #4E7C69;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px 40px 20px;
+}
+
+.site-footer p { 
+    position: relative; 
+    right: 12px;
+}
+.footer-logo p { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.footer-logo-text {   
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    color: white;
+    font-weight: 400;
+    
+}
+.copyright { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    right: 13px;
+}
+.quick-link h2 { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 3px;
+    position: relative;
+    left: 8px;
+}
+.quick-link li { 
+    list-style: none;
+}
+
+.quick-link li a { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icons-footer { 
+    width: 20px;
+    height: 20px;
+    margin: 4px 13px 4px 4px;
+
+}
+
+.get-in-touch h2{ 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 14px;
+    position: relative; 
+    left: 8px;
+
+}
+.get-in-touch p { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 4px;
+   
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    
+} 
+.social-media h2 { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+    position: relative;
+    left: 8px;
+    margin-bottom: 2px;
+
+}
+.social-media p { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+    margin: 4px;
+    font-weight: 400;
+}
+.get-in-touch { 
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* lining it up */
+.phone-number { 
+    display: flex;
+
+}
+.location { 
+    display: flex;
+
+}
+.mail { 
+    display: flex;
+
+}
+
+/* lining up social media*/
+.fb { 
+    display: flex;
+}
+.twt { 
+    display: flex;
+}
+.insta { 
+    display: flex;
+}
