@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poly", serif;
+    font-family: "Poly", serif;    
+    scroll-behavior: smooth;
     
 }
 
 body{ 
     background: #CAF1FF;
-    scroll-behavior: smooth;
   }
 
   .home-container { 

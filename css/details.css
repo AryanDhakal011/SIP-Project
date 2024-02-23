@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 body { 
@@ -158,19 +160,22 @@ text-align: center;
 .name { 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .name p { 
     font-family: "Poly", serif;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
-
+    margin-right: 250px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
 }
 .email { 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 
 }
 .email p {
@@ -178,13 +183,16 @@ text-align: center;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 250px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .phone { 
     display: flex;
     align-items: center;
-    justify-content: space-around;display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 
 }
 .phone p{ 
@@ -192,66 +200,86 @@ text-align: center;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 246px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .age { 
     display: flex;
     align-items: center;
-    justify-content: space-around;display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .age p { 
     font-family: "Poly", serif;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 268px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .gender { 
     display: flex;
     align-items: center;
-    justify-content: space-around;display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .gender p { 
     font-family: "Poly", serif;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 238px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .experience { 
     display: flex;
     align-items: center;
-    justify-content: space-around;display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .experience p { 
     font-family: "Poly", serif;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 206px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .address { 
     display: flex;
     align-items: center;
-    justify-content: space-around;display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .address p { 
     font-family: "Poly", serif;
     color: #6e6c6c;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 233px;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px;
+
 }
 .person-img { 
     width: 129px;
     min-height: 126px;
+    position: relative;
+    left: 612px;
+    bottom: 320px;
+    background-size: cover ;
 }
 
 .profile-img { 
-   
     width: 20%;
 }
 
