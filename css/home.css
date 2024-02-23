@@ -227,6 +227,11 @@ body{
         padding: 4px;
         position: relative;
         left: 93px;
+        transition: 300ms ease-in-out;
+    } 
+    .contact-login-btn:hover { 
+      cursor: pointer;
+      background: #3b3434;
     }
 
     .services-container { 
