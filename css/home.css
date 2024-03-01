@@ -217,23 +217,41 @@ body{
         font-size: 18px;
         background: #181818;
         color: white;
-        width: 104px;
+        width: 120px;
         height: 36px;
         text-align: center;
         letter-spacing: 1px;
         font-weight: 600;
-        border-radius: 10px;
+        border-radius: 16px;
         text-transform: uppercase;
-        padding: 4px;
+        padding: 5px;
         position: relative;
-        left: 93px;
         transition: 300ms ease-in-out;
     } 
+    .donate-login-btn { 
+      font-size: 18px;
+      background: #181818;
+      color: white;
+      width: 104px;
+      height: 36px;
+      text-align: center;
+      letter-spacing: 1px;
+      font-weight: 600;
+      border-radius: 10px;
+      text-transform: uppercase;
+      padding: 4px;
+      position: relative;
+      left: 93px;
+      transition: 300ms ease-in-out;
+    }
     .contact-login-btn:hover { 
       cursor: pointer;
       background: #3b3434;
     }
-
+    .donate-login-btn:hover { 
+      cursor: pointer;
+      background: #3b3434;
+    }
     .services-container { 
         margin: 50px;
         background: #ebf9fe;
