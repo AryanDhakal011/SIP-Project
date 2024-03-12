@@ -209,3 +209,16 @@ justify-content: center;
   width: 100%; 
   left: 0; 
 }
+
+.togglePassword { 
+  position: relative;
+  right: 25px;
+}
+
+label {
+  position: relative;
+}
+
+label input {
+  width: 100%; /* Adjust the width as needed */
+}
