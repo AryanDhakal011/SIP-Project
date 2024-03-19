@@ -8,15 +8,7 @@
 
 body { 
     background: #CAF1FF;
-}
-.full-container { 
-    background: #e5f6fc;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 40px;
-    padding: 20px;
-    max-width: 100rem;
-    height: 45rem;
-    border-radius: 30px;
+
 }
 
 nav { 
@@ -32,7 +24,7 @@ nav {
     width: 60px;
     height: 60px;
     position: relative;
-    left: 50px;
+    left: 140px;
   }
 .logo-align { 
     display: flex;
@@ -43,7 +35,7 @@ nav {
     color: black; 
     position: relative;
     top: 10px;
-    left: 25px;
+    left: 115px;
     width: 300px;
     font-weight: 600;
 }
@@ -51,6 +43,7 @@ nav {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    margin-right: 100px;
 }
 .profile-align { 
     display: flex;
@@ -97,8 +90,8 @@ nav li a:hover {
 
 .submenu-wrap { 
     position: absolute; 
-    left: 1329px;
-    top: 104px;
+    left: 1310px;
+    top: 111px;
     width: 140px;
     display: none;
 }
@@ -131,161 +124,256 @@ nav li a:hover {
     font-weight: 600;
 }
 
-.vertical-divider {
-    width: 2px; 
-    height: 400px; 
-    background-color: #ccc; 
-    margin: 0 20px; 
-    position: relative; 
-}
-
 .main { 
     display: flex;
+    margin: 80px 100px 80px 100px;
+    padding: 20px;
+}
+.first-half { 
+ display: flex;
+ flex-direction: column;
+ flex: 1;
 }
 
-.maps-info { 
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    align-items: center;
-    position: relative;
-    top: 135px;
-    
-}
-.maps-info  h1{ 
+.first-half h1 { 
     font-family: "Inter", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
 }
-.maps-info p { 
+.first-half p { 
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #2f2f2f;
-}
-.location-detail { 
-    width: 70%;
+    color: rgb(63, 63, 63);
+    font-weight: 500;
     position: relative;
     left: 50px;
-    top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.form { 
+    padding: 4px;
+
 }
 
-/* main portion */
+.for-group { 
+    background: #CAF1FF;
+    color: #181818;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 5px 3px 3px 3px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 15px;
+    
+}
 
-
-.google-mapsImg { 
-    width: 220px;
-    height: 110px;
+.for-group::placeholder { 
+    font-family: "Poppins", sans-serif;
+    color: #181818;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.grouping { 
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    margin-bottom: 15px;
+}
+.for-email{ 
+    font-family: "Poppins", sans-serif;
+    background: #CAF1FF;;
+    color: #181818;
+    width: 508px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 18px;  
+    font-weight: 500;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+.for-email::placeholder { 
+    font-family: "Poppins", sans-serif;
+    color: #181818;
+    font-size: 18px;
+    position: relative;
+    left: 73px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.for-phone { 
+    font-family: "Poppins", sans-serif;
+    background: #CAF1FF;;
+    color: #181818;
+    width: 508px;
+    height: 40px;
     margin-bottom: 30px;
+    font-size: 18px;  
+    font-weight: 500;
+    padding-left: 15px;
+    border-radius: 4px;
 }
-
-.location-header { 
-    font-size: 22px;
-    font-weight:600; 
-    font-family: "Inter", sans-serif;
+.for-phone::placeholder { 
+    font-family: "Poppins", sans-serif;
+    color: #181818;
+    font-size: 18px;
+    position: relative;
+    left: 73px;
     letter-spacing: 2px;
+    font-weight: 500;
+}
+.postion { 
+    display: flex;
+    flex-direction: column;
+}
+.care-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
-
-.locationDropdown { 
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin-right: 40px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.location-detail select { 
-    font-family: "Inter", sans-serif;
-    padding: 7px;
-    letter-spacing: 2px;
-    border: 1px solid black;
-    border-radius: 6px;
-    font-size: 16px;
-    background: #ebf9fe;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.choose-date-time { 
-    margin: 20px 0px 5px 60px;
-}
-.choose-date-time label{ 
-    font-family: "Inter", sans-serif;
-    padding: 7px;
-    border-radius: 6px;
-    font-size: 18px;
-    background: #ebf9fe;
-    color: black;
-    margin-right: 20px;
-}
-.choose-date-time input{ 
-    font-family: "Inter", sans-serif;
-    letter-spacing: 2px;
-    padding: 2px;
-    border: 1px solid black;
-    border-radius: 6px;
-    font-size: 16px;
-    background: #ebf9fe;
-    color: black;
-}
-
-.choosetime { 
-    margin: 0px 0px 5px 60px;
+.care { 
+    font-family: "Poppins", sans-serif;
+    background: #CAF1FF;;
+    color: #181818;
+    width: 508px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;  
+    font-weight: 500;
+    padding-left: 15px;
+    border-radius: 4px;
 
 }
-
-.choosetime label{ 
-    font-family: "Inter", sans-serif;
-    padding: 7px;
-    border-radius: 6px;
-    font-size: 18px;
-    background: #ebf9fe;
-    color: black;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-.choosetime input{ 
-    font-family: "Inter", sans-serif;
-    padding: 2px;
-    letter-spacing: 2px;
-    border: 1px solid black;
-    border-radius: 6px;
-    font-size: 16px;
-    background: #ebf9fe;
-    color: black;
+select option { 
+ padding-left: 5px;
 }
 
-.confirm { 
+.select-btn { 
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     background: #181818; 
     color: white;
     text-transform: uppercase;
-    width: 120px;
+    width: 240px;
     height: 48px;
     padding: 8px;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 500;
     border-radius: 12px;
-    transition: transform 300ms ease-in-out;
+    transition:  200ms ease-in-out;
     position: relative;
     left: 130px;
     top: 20px;
 }
 
-.confirm:hover { 
+.select-btn:hover { 
     cursor: pointer;
-    background: #2b2b2b; 
-
+    background: #3a3838; 
 }
 
+.second-half { 
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+    border-style: dashed;
+    border-width: 2px;
+    align-items: flex-start;
+    
+}
+.upload-cv { 
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 16px;
+    
+}
+.cv-icon-img { 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 265px;
+    margin-bottom: 20px;
+}
 
-/* footer */
+#cvFile {    
+    font-family: "Poppins", sans-serif;
+    background: #CAF1FF;;
+    color: #181818;
+    width: 508px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 0; 
+    font: hidden;
+    font-weight: 500;
+    padding-left: 15px;
+    border-radius: 4px;
+    overflow: hidden;
 
-.site-footer { 
+    
+}
+
+#cvFile[type="file"]::file-selector-button { 
+    font-family: "Poppins", sans-serif;
+    background: #CAF1FF;;
+    color: #181818;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;  
+    font-weight: 500;
+    padding-left: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+    position: relative;
+    left: 180px;
+}
+.upload-cv-btn { 
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background: #181818; 
+    color: white;
+    text-transform: uppercase;
+    width: 240px;
+    height: 48px;
+    padding: 8px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition:  200ms ease-in-out;
+    position: relative;
+    left: 174px;
+    bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-cv-btn:hover { 
+    cursor: pointer;
+    background: #3a3838; 
+}
+
+.upload-cv p { 
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    left: 140px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+  /* footer */
+  
+  .site-footer { 
     background: #4E7C69;
     display: flex;
     flex-direction: row;
@@ -297,10 +385,9 @@ nav li a:hover {
     position: relative; 
     right: 12px;
 }
-.footer-logo { 
-    width: 100px;
-    height: 90px;
-    position: relative;
+.footer-logo-img { 
+    width: 80px;
+    height: 80px;
 }
 .footer-logo p { 
     font-family: "Poppins", sans-serif;
@@ -322,7 +409,6 @@ nav li a:hover {
     position: relative;
     top: 15px;
     right: 13px;
-    width: 1000px;
 }
 .quick-link h2 { 
     font-family: "Poppins", sans-serif;
